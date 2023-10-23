@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        table{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            align-items: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        #texxt{
+            background-color: red;
+            color: blue;
+        }
+        #videoo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media only screen and (max-width:600px){
+            img{
+                width:100%;
+                height:100% ;
+            }
+            h1{
+                font-size: 20px;
+            }
+            video{
+                width: 100%;
+                height: 100%;
+            }
+            #texxt{
+                padding:50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <img src="https://c8.alamy.com/comp/2G52723/happy-birthday-greeting-card-vector-illustration-in-sketch-style-2G52723.jpg">
+        </tr>
+        <tr>
+            <h1 id="texxt">Click below to see surprise</h1>
+        </tr>
+        <tr>
+            <video controls id="videoo">
+                <source src="C:\Users\Ravikiran\Desktop\project\Birthday2\Rajender's Birthday.mp4" type="video/mp4">
+            </video>
+        </tr>
+    </table>
+</body>
+</html>
